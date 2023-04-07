@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root{
+    --outifit: "Outfit";
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+
+body{
+    background-color: var(--pale-blue);
+    font-family: var(--outifit);
+    
+}
+
+.card-main{
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.img-top{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-content{
+    padding: 0 2rem ;
+}
+
+h2, .detail-plan{
+    text-align: center;
+}
+h2{
+    color: var(--dark-blue);
+}
+P{
+    color: var(--desaturated-blue);
+}
+a{
+    color: var(--bright-blue);
+    margin-right: 1rem;
+}
+
+.detail-plan{
+    padding: 0 1rem;
+}
+
+.card-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--very-pale-blue);
+    height: 70px;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+}
+
+.card-plan img{
+    width: 10%;
+    height: 60%;
+    padding-left: 1rem;
+
+}
+
+
+.card-plan p{
+    margin: 0%;
+    padding-right: 8rem;
+    
+}
+
+.plan-type{
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.btns{
+    margin-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-pay{
+    padding: 1rem;
+    border: none;
+    background-color: var(--bright-blue);
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+
+.btn-cancel{
+    background-color: white;
+    border: none;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--desaturated-blue);
+    font-weight: 700;
+}
+
